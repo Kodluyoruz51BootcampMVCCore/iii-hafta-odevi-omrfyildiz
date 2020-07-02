@@ -10,8 +10,6 @@ Process bir çalıştırılan bir bilgisayar programının örneğidir.Program k
 ### Thread:
 A thread is a basic unit of CPU utilization, consisting of a program counter, a stack, and a set of registers. A thread of execution results from a fork of a computer program into two or more concurrently running tasks. The implementation of threads and processes differs from one operating system to another, but in most cases, a thread is contained inside a process. Multiple threads can exist within the same process and share resources such as memory, while different processes do not share these resources. Example of threads in same process is automatic spell check and automatic saving of a file while writing. Threads are basically processes that run in the same memory context. Threads may share the same data while execution.
 
-![Thread Diagram i.e. single thread vs multiple threads](https://i.stack.imgur.com/hwH8u.jpg)
-
 Bir thread CPU(işlemci)'nun temel kullanım birimidir. Program sayacı, stack ve bir kayıt setinden oluşur. Threadlerin ya da processlerin uygulanmasının yerine getirilmesi bir çalışan sistemden diğerine göre değişebilir fakat çoğu durumda bir thread processin içinde yer alır. Çoklu threadler aynı processte var olabilir ve hafıza(memory) gibi kaynakları paylaşabilirken farklı processler bu kaynakları paylaşmaz. Aynı processteki threadler örneği otomatik yazım denetimi kontrolü ve bir dosya yazılırken otomatik kaydedilmesi olarak gösterilebilir. Temel olarak threadler aynı memory konteksinde çalışan processler olarak görülebilir. Uygulama çalışırken threadler aynı datayı paylaşabilir.
 
 ![Thread diagramı](https://i.stack.imgur.com/hwH8u.jpg)  
